@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>E-Ewgos - Sport E-commerce Website</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Noto+Sans:wght@400;500&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR : Figma 1920 x 106 -->
+<header class="navbar">
+  <a href="#home" class="logo a" style="--x:200;--y:0;--w:234;--h:106">E-Ewgos</a>
+  <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  <nav class="nav-links" id="nav">
+    <a class="a l1" href="#home"    style="--x:487;--y:41">Home</a>
+    <a class="a l2" href="#contact" style="--x:569;--y:41">Contact</a>
+    <a class="a l3" href="#about"   style="--x:672;--y:41">About Us</a>
+    <a class="a l4" href="#who"     style="--x:781;--y:41">Who Is</a>
+    <a class="a login" href="#login" style="--x:1556;--y:41">Login Now</a>
+  </nav>
+</header>
+
+<main>
+<!-- HERO : Figma 1700 x 754 -->
+<section class="hero" id="home">
+  <h1 class="a" style="--x:200;--y:95">Where Athletes<br>Find Edge.</h1>
+  <p class="a hero-p" style="--x:210;--y:400">Our Sport E-commerce platform is your one-stop destination for premium sportswear, gear, and accessories. From athletes to fitness enthusiasts, we provide high-quality products</p>
+  <img class="hero-img placeholder" src="images/hero.jpg" alt="Three athletes sprinting">
+  <div class="logos">
+    <img src="images/logo-1.png" alt="adidas">
+    <img src="images/logo-2.png" alt="asics">
+    <img src="images/logo-3.png" alt="Everlast">
+    <img src="images/logo-4.png" alt="Nike">
+    <img src="images/logo-5.png" alt="Puma">
+  </div>
+</section>
+
+<!-- CATEGORIES + CAROUSEL : Figma 1558 x 576 -->
+<section class="gear" id="gear">
+  <h2 class="a" style="--x:198;--y:25;--w:806">Performance Starts <span class="blue">With</span><br>The Right Gear</h2>
+  <div class="a arrows" style="--x:1507;--y:79">
+    <button class="arrow lime" id="prev" aria-label="Previous">&larr;</button>
+    <button class="arrow" id="next" aria-label="Next">&rarr;</button>
+  </div>
+
+  <ul class="a cats" id="cats" style="--x:224;--y:252;--w:344;--h:347">
+    <li class="active a" style="--x:42;--y:4"><button data-i="0">Comfort Meets <b>32</b></button></li>
+    <li class="a" style="--x:42;--y:96"><button data-i="1">Sports Collections <b>10</b></button></li>
+    <li class="a" style="--x:42;--y:188"><button data-i="2">Sport Essentials <b>12</b></button></li>
+    <li class="a" style="--x:42;--y:280"><button data-i="3">Train. Sweat. Repeat. <b>89</b></button></li>
+  </ul>
+
+  <div class="a track-wrap" style="--x:735;--y:262;--w:1021;--h:339">
+    <div class="track" id="track">
+      <article class="card"><h3 class="a" style="--x:32;--y:44">Redefining Active Living.</h3><p class="a" style="--x:32;--y:103;--w:304">Sportswear, gear, and accessories. From athletes to fitness enthusiasts, we provide high-quality</p><a href="#" class="a btn lg" style="--x:32;--y:228;--w:214;--h:74">Show More</a></article>
+      <article class="card"><h3 class="a" style="--x:32;--y:44">Look Good, Perform Better</h3><p class="a" style="--x:32;--y:103;--w:304">Our Eco-Tourism platform promotes sustainable travel experiences that connect people</p><a href="#" class="a btn lg" style="--x:32;--y:228;--w:214;--h:74">Show More</a></article>
+      <article class="card"><h3 class="a" style="--x:32;--y:44">Look Sport Smart</h3><p class="a" style="--x:32;--y:103;--w:304">Our Eco-Tourism platform promotes sustainable travel experiences that connect people</p><a href="#" class="a btn lg" style="--x:32;--y:228;--w:214;--h:74">Show More</a></article>
+      <article class="card"><h3 class="a" style="--x:32;--y:44">Built To Last</h3><p class="a" style="--x:32;--y:103;--w:304">Sportswear, gear, and accessories. From athletes to fitness enthusiasts, we provide high-quality</p><a href="#" class="a btn lg" style="--x:32;--y:228;--w:214;--h:74">Show More</a></article>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT / JOURNEY : Figma 1520 x 1629 -->
+<section class="sec about" id="about">
+  <h2 class="a" style="--x:346;--y:0;--w:751">Your Journey, Your<br>Performance.</h2>
+  <p class="a body" style="--x:843;--y:114;--w:754">Our Sport E-commerce platform is your one-stop destination for premium sportswear, gear, and accessories. From athletes to fitness enthusiasts,</p>
+
+  <img class="a av" style="--x:200;--y:390" src="images/avatar-1.jpg" alt="Team player">
+  <img class="a av" style="--x:272;--y:390" src="images/avatar-2.jpg" alt="Racing driver">
+  <img class="a av" style="--x:344;--y:390" src="images/avatar-3.jpg" alt="Fighter">
+  <img class="a av" style="--x:416;--y:390" src="images/avatar-4.jpg" alt="Boxer">
+  <p class="a av-text" style="--x:506;--y:382;--w:255">From athletes to fitness enthusiasts</p>
+  <p class="a body" style="--x:200;--y:546;--w:640">Our Sport E-commerce platform is your one-stop destination for premium sportswear, gear, and accessories. From athletes to fitness enthusiasts, we provide high-quality products that fuel performance</p>
+
+  <img class="a pic tilt" style="--x:1050;--y:233;--w:315;--h:315" src="images/journey-1.jpg" alt="Dumbbells and resistance band">
+  <img class="a pic sq"   style="--x:1271;--y:327;--w:382;--h:382" src="images/journey-2.jpg" alt="Blue and yellow running shoe">
+
+  <!-- orbit group : 954 x 980 -->
+  <div class="a orbit" id="orbit" style="--x:208;--y:649;--w:954;--h:980">
+    <i class="ring" style="--x:3;--y:2;--w:886;--h:886"></i>
+    <i class="ring" style="--x:34;--y:30;--w:826;--h:826"></i>
+
+    <!-- the 5 pictures are stacked; picture 1 is on top at the start -->
+    <div class="stack" id="stack">
+      <figure class="opic front" data-i="0"><img src="images/orbit-1.jpg" alt="Running shoe"></figure>
+      <figure class="opic" data-i="1"><img src="images/orbit-2.jpg" alt="Boxer training"></figure>
+      <figure class="opic" data-i="2"><img src="images/orbit-3.jpg" alt="Dumbbells and resistance band"></figure>
+      <figure class="opic contain" data-i="3"><img src="images/gear.webp" alt="Sports equipment illustration"></figure>
+      <figure class="opic" data-i="4"><img src="images/orbit-5.jpg" alt="Basketball team with trophy"></figure>
+    </div>
+
+    <button class="chip c1" data-i="0" style="--x:702;--y:33"  aria-label="Show picture 1"><svg viewBox="0 -960 960 960" aria-hidden="true"><path d="M222-255q63-44 125-67.5T480-346q71 0 133.5 23.5T739-255q44-54 62.5-109T820-480q0-145-97.5-242.5T480-820q-145 0-242.5 97.5T140-480q0 61 19 116t63 109Zm160.5-234.5Q343-529 343-587t39.5-97.5Q422-724 480-724t97.5 39.5Q617-645 617-587t-39.5 97.5Q538-450 480-450t-97.5-39.5ZM480-80q-82 0-155-31.5t-127.5-86Q143-252 111.5-325T80-480q0-83 31.5-155.5t86-127Q252-817 325-848.5T480-880q83 0 155.5 31.5t127 86q54.5 54.5 86 127T880-480q0 82-31.5 155t-86 127.5q-54.5 54.5-127 86T480-80Zm107.5-76Q640-172 691-212q-51-36-104-55t-107-19q-54 0-107 19t-104 55q51 40 103.5 56T480-140q55 0 107.5-16Zm-52-375.5Q557-553 557-587t-21.5-55.5Q514-664 480-664t-55.5 21.5Q403-621 403-587t21.5 55.5Q446-510 480-510t55.5-21.5ZM480-587Zm0 374Z"/></svg></button>
+    <button class="chip c2" data-i="1" style="--x:32;--y:247"   aria-label="Show picture 2"><svg viewBox="0 -960 960 960" aria-hidden="true"><path d="M481-29 346-160H160v-186L26-480l134-134v-186h186l135-134 133 134h186v186l134 134-134 134v186H614L481-29Zm0-84 79-78v-177q-26-15-43-50.5T500-500q0-58 26-99t64-41q37 0 63.5 41t26.5 99q0 47-17 82.5T620-368v148h120v-151l109-109-109-109v-151H589L481-849 371-740H220v151L111-480l109 109v151h120v-180q-26-6-43-27.5T280-477v-163h40v151h30v-151h40v151h30v-151h40v163q0 28-17 49.5T400-400v209l81 78Zm-1-368Z"/></svg></button>
+    <button class="chip c3 lime" data-i="2" style="--x:842;--y:296" aria-label="Show picture 3"><svg viewBox="0 -960 960 960" aria-hidden="true"><path d="M152-232q-32-32-32-78H40v-380q0-29 20.5-49.5T110-760h576l234 234v216h-80q0 46-32 78t-78 32q-46 0-78-32t-32-78H340q0 46-32 78t-78 32q-46 0-78-32Zm448-328h194L654-700h-54v140Zm-250 0h190v-140H350v140Zm-250 0h190v-140H100v140Zm172.5 292.5Q290-285 290-310t-17.5-42.5Q255-370 230-370t-42.5 17.5Q170-335 170-310t17.5 42.5Q205-250 230-250t42.5-17.5Zm500 0Q790-285 790-310t-17.5-42.5Q755-370 730-370t-42.5 17.5Q670-335 670-310t17.5 42.5Q705-250 730-250t42.5-17.5ZM100-370h37q17-26 42.5-38t50.5-12q25 0 50.5 12t42.5 38h314q17-26 42.5-38t50.5-12q25 0 50.5 12t42.5 38h37v-130H100v130Zm760-130H100h760Z"/></svg></button>
+    <button class="chip c4" data-i="3" style="--x:666;--y:637"  aria-label="Show picture 4"><svg viewBox="0 -960 960 960" aria-hidden="true"><path d="M210.5-81Q110-122 110-192q0-32 30.5-63.5T231-307l52 46q-76 24-94.5 41.5T170-192q0 23 80.5 55T480-105q149 0 229.5-32t80.5-55q0-10-18.5-27.5T677-261l53-46q60 20 90 51.5t30 63.5q0 70-100.5 111T480-40q-169 0-269.5-41ZM443-209.5q-17-8.5-33-20.5L134-467q-11-10-17.5-22.5T110-516v-78q0-14 6.5-25t16.5-20l276-256q14-14 32.5-20t38.5-6q20 0 38.5 6t32.5 20l276 256q10 9 16.5 20t6.5 25v78q0 14-6.5 26.5T826-467L550-230q-16 12-33 20.5t-37 8.5q-20 0-37-8.5ZM507-377q14-5 26-16l239-218-263-238q-5-7-11.5-9.5T483-860q-8 1-16 3.5t-16 7.5L187-609l236 216q12 11 26 16t29 5q15 0 29-5ZM384-571q14-14 14-34t-14-34q-14-14-34-14t-34 14q-14 14-14 34t14 34q14 14 34 14t34-14Zm31 75q45 20 93 10.5t84-42.5q33-29 43.5-71t-6.5-83L415-496Zm99-201q14-14 14-34t-14-34q-14-14-34-14t-34 14q-14 14-14 34t14 34q14 14 34 14t34-14Zm-34 81Z"/></svg></button>
+    <button class="chip c5 blue" data-i="4" style="--x:68;--y:782" aria-label="Show picture 5"><svg viewBox="0 -960 960 960" aria-hidden="true"><path d="M160-80v-260q0-24 18-42t42-18h520q24 0 42 18t18 42v260H160Zm60-160h520v-100H220v100Zm260-160L281-680q0-83 58.21-141.5T480-880q82.58 0 140.79 58.5Q679-763 679-680L480-400Zm0-78 139-202q0-58.33-40.56-99.17Q537.88-820 479.94-820t-98.44 40.83Q341-738.33 341-680l139 202Zm0-171Z"/></svg></button>
+  </div>
+
+  <p class="a body" style="--x:1290;--y:896;--w:430">Destination for premium sportswear, gear, and accessories. From athletes to fitness enthusiasts, we provide high-quality products that fuel</p>
+
+  <p class="a bar-t" style="--x:1148;--y:1106;--w:326">High-Quality Products That Fuel</p>
+  <div class="a bar-track" style="--x:1153;--y:1153;--w:417;--h:8"><i data-w="50"></i></div>
+  <p class="a bar-n" style="--x:1633;--y:1137" data-count="50">0%</p>
+  <p class="a bar-t" style="--x:1148;--y:1219;--w:287">Sport E-Commerce Platform</p>
+  <div class="a bar-track" style="--x:1153;--y:1265;--w:417;--h:8"><i data-w="90"></i></div>
+  <p class="a bar-n" style="--x:1633;--y:1250" data-count="90">0%</p>
+
+  <p class="a body" style="--x:1092;--y:1399;--w:640">Our Sport E-commerce platform is your one-stop destination for premium sportswear, gear, and accessories. From athletes to fitness enthusiasts, we provide high-quality products</p>
+</section>
+
+<!-- CHAMPIONS : Figma 1520 x 755 -->
+<section class="sec champions" id="who">
+  <h2 class="a" style="--x:209;--y:0;--w:751">Sports <span class="blue">Gear</span> Made For<br>Champions.</h2>
+  <p class="a body" style="--x:200;--y:212;--w:730">Our Sport E-commerce platform is your one-stop destination for premium sportswear, gear, and accessories. From athletes to fitness enthusiasts</p>
+  <a href="#" class="a btn lg" style="--x:1469;--y:31;--w:214;--h:74">Show More</a>
+  <img class="a pic r23" style="--x:1018;--y:23;--w:376;--h:498"  src="images/champ-3.jpg" alt="Racing driver holding a winner trophy">
+  <img class="a pic r23" style="--x:1432;--y:272;--w:288;--h:400" src="images/champ-1.jpg" alt="Basketball team celebrating with a trophy">
+  <img class="a pic r23" style="--x:632;--y:431;--w:308;--h:324;object-position:50% 15%" src="images/champ-2.jpg" alt="Two Muay Thai fighters in gym">
+  <img class="a pic r23" style="--x:257;--y:334;--w:308;--h:278;object-position:50% 28%" src="images/champ-4.jpg" alt="Boxer hitting a punching bag">
+</section>
+
+<!-- PREMIUM : Figma 1520 x 908 -->
+<section class="sec premium">
+  <h2 class="a" style="--x:209;--y:0;--w:751">Premium Gear, Proven<br>Performance.</h2>
+  <p class="a body" style="--x:1124;--y:27;--w:596">Our Sport E-commerce platform is your one-stop destination for premium sportswear, gear, and accessories. From athletes to fitness enthusiasts, we provide high-quality products that fuel performance,</p>
+  <div class="a banner" style="--x:200;--y:238;--w:1520;--h:670"><img class="banner-img" src="images/banner.jpg" alt="Dumbbells and resistance band on wooden floor"></div>
+  <h4 class="a banner-t" style="--x:262;--y:290;--w:385">Quality Sportswear For Every Athlete.</h4>
+  <p class="a body light" style="--x:262;--y:343;--w:596">Our Sport E-commerce platform is your one-stop destination for premium sportswear, gear, and accessories.</p>
+
+  <div class="a pcard" style="--x:262;--y:614;--w:554;--h:224">
+    <img class="a" src="images/gear.webp" alt="Sports equipment illustration" style="--x:11;--y:17;--w:182;--h:177">
+    <h5 class="a" style="--x:226;--y:49;--w:204">Your Trusted Sports</h5>
+    <p class="a body" style="--x:226;--y:102;--w:302">Accessories. From athletes to fitness enthusiasts, we provide high-quality products that fuel performance,</p>
+  </div>
+  <div class="a pcard" style="--x:847;--y:614;--w:345;--h:224"><img class="a" src="images/card-2.jpg" alt="Running shoe" style="--x:14;--y:24;--w:318;--h:177"></div>
+  <div class="a pcard" style="--x:1223;--y:615;--w:345;--h:224"><img class="a" src="images/card-3.jpg" alt="Athletes in sportswear" style="--x:14;--y:24;--w:318;--h:177"></div>
+</section>
+
+<!-- CONTACT + FAQ : Figma form 636 x 583, FAQ 641 wide -->
+<section class="sec contact" id="contact">
+  <h2 class="a center" style="--x:584;--y:0;--w:751">Gear Designed To Keep<br>Up With You</h2>
+  <p class="a body center" style="--x:587;--y:205;--w:746">Our Sport E-commerce platform is your one-stop destination for premium sportswear, gear, and accessories. From athletes to fitness enthusiasts, we provide high-quality products</p>
+
+  <form class="a form" id="form" novalidate style="--x:248;--y:363;--w:636;--h:583">
+    <span class="a eyebrow" style="--x:44;--y:38">Contact Us</span>
+    <h3 class="a" style="--x:44;--y:79">Contact Our Sales Team</h3>
+    <label class="a" style="--x:44;--y:152;--w:230">First Name :<input type="text" name="first" required><small class="err"></small></label>
+    <label class="a" style="--x:327;--y:152;--w:230">Last Name :<input type="text" name="last" required><small class="err"></small></label>
+    <label class="a" style="--x:44;--y:283;--w:525">Message :<textarea name="message" required></textarea><small class="err"></small></label>
+    <button type="submit" class="a btn" style="--x:44;--y:480;--w:167;--h:50">Send Now</button>
+    <p class="a ok" id="ok" hidden style="--x:230;--y:492">Thanks! Your message has been sent.</p>
+  </form>
+
+  <div class="a faq" style="--x:989;--y:413;--w:641">
+    <details open><summary>What Kind Of Products Do You Sell?</summary><p>Our Sport E-commerce platform is your one-stop destination for premium sportswear, gear, and accessories. From athletes to fitness enthusiasts, we provide high-quality products</p></details>
+    <details><summary>Do You Provide Products For All Sports?</summary><p>Yes. We carry gear for team sports, individual training, outdoor activities and everyday active living.</p></details>
+    <details><summary>Are Your Products Authentic?</summary><p>Every item is sourced directly from verified brands and suppliers.</p></details>
+  </div>
+</section>
+</main>
+
+<!-- FOOTER : Figma 1928 x 830 -->
+<footer class="footer" id="login">
+ <div class="f-in">
+  <div class="f-cols">
+    <div><h6>EXPLORE</h6><a href="#">Blog</a><a href="#">Content</a><a href="#">Brand</a></div>
+    <div><h6>MENU</h6><a href="#home">Home</a><a href="#about">About</a><a href="#contact">Contact</a><a href="#">Resources</a></div>
+    <div><h6>Resources</h6><a href="#">Blog</a><a href="#">News Letter</a><a href="#">Events</a><a href="#">Help Centers</a></div>
+    <div><h6>Product</h6><a href="#">Overview</a><a href="#">Features</a><a href="#">Solutions</a><a href="#">Tutorial</a><a href="#">Pricing</a><a href="#">Releases</a></div>
+    <div><h6>Legal</h6><a href="#">Terms</a><a href="#">Privacy</a><a href="#">Licenses</a><a href="#">Settings</a><a href="#">Our Account</a><a href="#">Cookies</a></div>
+    <div><h6>HELP &amp; SERVICE</h6><a href="#">FAQs</a><a href="#">Community</a><a href="#">Gallery</a><a href="#">Testimonial</a><a href="#">Service</a><a href="#">Login</a></div>
+    <div><h6>Company</h6><a href="#">About Us</a><a href="#">Career</a><a href="#">Press</a><a href="#">News</a><a href="#">Media Kit</a><a href="#">Contact</a></div>
+  </div>
+  <p class="big">EXPLORE THE LATEST SPORTS<br><span>COLLECTIONS.</span></p>
+  <div class="f-bottom">
+    <div class="socials">
+      <a href="#" aria-label="Dribbble"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 24C5.385 24 0 18.615 0 12S5.385 0 12 0s12 5.385 12 12-5.385 12-12 12zm10.12-10.358c-.35-.11-3.17-.953-6.384-.438 1.34 3.684 1.887 6.684 1.992 7.308 2.3-1.555 3.936-4.02 4.395-6.87zm-6.115 7.808c-.153-.9-.75-4.032-2.19-7.77l-.066.02c-5.79 2.015-7.86 6.025-8.04 6.4 1.73 1.358 3.92 2.166 6.29 2.166 1.42 0 2.77-.29 4-.814zm-11.62-2.58c.232-.4 3.045-5.055 8.332-6.765.135-.045.27-.084.405-.12-.26-.585-.54-1.167-.832-1.74C7.17 11.775 2.206 11.71 1.756 11.7l-.004.312c0 2.633.998 5.037 2.634 6.855zm-2.42-8.955c.46.008 4.683.026 9.477-1.248-1.698-3.018-3.53-5.558-3.8-5.928-2.868 1.35-5.01 3.99-5.676 7.17zM9.6 2.052c.282.38 2.145 2.914 3.822 6 3.645-1.365 5.19-3.44 5.373-3.702-1.81-1.61-4.19-2.586-6.795-2.586-.825 0-1.63.1-2.4.285zm10.335 3.483c-.218.29-1.935 2.493-5.724 4.04.24.49.47.985.68 1.486.08.18.15.36.22.53 3.41-.43 6.8.26 7.14.33-.02-2.42-.88-4.64-2.31-6.38z"/></svg></a>
+      <a href="#" aria-label="Behance"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.969 16.927a2.561 2.561 0 0 0 1.901.677 2.501 2.501 0 0 0 1.531-.475c.362-.235.636-.584.779-.99h2.585a5.091 5.091 0 0 1-1.9 2.896 5.292 5.292 0 0 1-3.091.88 5.839 5.839 0 0 1-2.284-.433 4.871 4.871 0 0 1-1.723-1.211 5.657 5.657 0 0 1-1.08-1.874 7.057 7.057 0 0 1-.383-2.393c-.005-.8.129-1.595.396-2.349a5.313 5.313 0 0 1 5.088-3.604 4.87 4.87 0 0 1 2.376.563c.661.362 1.231.87 1.668 1.485a6.2 6.2 0 0 1 .943 2.133c.194.821.263 1.666.205 2.508h-7.699c-.063.79.184 1.574.688 2.187ZM6.947 4.084a8.065 8.065 0 0 1 1.928.198 4.29 4.29 0 0 1 1.49.638c.418.303.748.711.958 1.182.241.579.357 1.203.341 1.83a3.506 3.506 0 0 1-.506 1.961 3.726 3.726 0 0 1-1.503 1.287 3.588 3.588 0 0 1 2.027 1.437c.464.747.697 1.615.67 2.494a4.593 4.593 0 0 1-.423 2.032 3.945 3.945 0 0 1-1.163 1.413 5.114 5.114 0 0 1-1.683.807 7.135 7.135 0 0 1-1.928.259H0V4.084h6.947Zm-.235 12.9c.308.004.616-.029.916-.099a2.18 2.18 0 0 0 .766-.332c.228-.158.411-.371.534-.619.142-.317.208-.663.191-1.009a2.08 2.08 0 0 0-.642-1.715 2.618 2.618 0 0 0-1.696-.505h-3.54v4.279h3.471Zm13.635-5.967a2.13 2.13 0 0 0-1.654-.619 2.336 2.336 0 0 0-1.163.259 2.474 2.474 0 0 0-.738.62 2.359 2.359 0 0 0-.396.792c-.074.239-.12.485-.137.734h4.769a3.239 3.239 0 0 0-.679-1.785l-.002-.001Zm-13.813-.648a2.254 2.254 0 0 0 1.423-.433c.399-.355.607-.88.56-1.413a1.916 1.916 0 0 0-.178-.891 1.298 1.298 0 0 0-.495-.533 1.851 1.851 0 0 0-.711-.274 3.966 3.966 0 0 0-.835-.073H3.241v3.631h3.293v-.014ZM21.62 5.122h-5.976v1.527h5.976V5.122Z"/></svg></a>
+      <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg></a>
+      <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.543 7.104c.015.211.015.423.015.636 0 6.507-4.954 14.01-14.01 14.01v-.003A13.94 13.94 0 0 1 0 19.539a9.88 9.88 0 0 0 7.287-2.041 4.93 4.93 0 0 1-4.6-3.42 4.916 4.916 0 0 0 2.223-.084A4.926 4.926 0 0 1 .96 9.167v-.062a4.887 4.887 0 0 0 2.235.616A4.928 4.928 0 0 1 1.67 3.148 13.98 13.98 0 0 0 11.82 8.292a4.929 4.929 0 0 1 8.39-4.49 9.868 9.868 0 0 0 3.128-1.196 4.941 4.941 0 0 1-2.165 2.724A9.828 9.828 0 0 0 24 4.555a10.019 10.019 0 0 1-2.457 2.549z"/></svg></a>
+    </div>
+    <small>E-Ewgos - Sport E-Commerce Website</small>
+  </div>
+ </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
