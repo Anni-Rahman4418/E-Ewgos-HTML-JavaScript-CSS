@@ -1078,3 +1078,15 @@ h2{
   html body footer.footer .f-bottom{flex-direction:row!important;justify-content:space-between!important}
   html body footer.footer .f-cols a{font-size:14px!important}
 }
+/* ======================= phone text spacing fix (lines were too close together) ======================= */
+@media (max-width:960px){
+  .hero-p{line-height:1.7}
+  .pcard h5{line-height:1.4}
+  .form label{line-height:1.5}
+  .card h3{line-height:1.35}
+  .banner-t{line-height:1.4}
+  .faq summary{line-height:1.45}
+  .bar-t{line-height:1.4}
+  .bar-n{line-height:1.3}
+  .nav-links a{line-height:1.5}
+}
